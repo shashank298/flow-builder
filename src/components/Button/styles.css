@@ -1,0 +1,12 @@
+.custom-button{
+    padding: 10px 24px;
+    border: 1px solid var(--blue);
+    background: var(--white);
+    border-radius: 8px;
+    color: var(--blue);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-family: 'Railway', sans-serif;
+}

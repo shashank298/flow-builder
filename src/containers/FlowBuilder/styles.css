@@ -1,0 +1,31 @@
+.react-flow-wrapper {
+    height: 100%;
+    width: 100%;
+    border: 2px solid var(--light-gray);
+}
+
+.header {
+    width: 100%;
+    background-color: var(--light-gray);
+    padding: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.left-panel {
+    position: relative;
+}
+
+.right-panel {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.full-height {
+    min-height: calc(100vh - 64px);
+}

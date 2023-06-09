@@ -1,0 +1,20 @@
+.node-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0px;
+    border: 1px solid var(--blue);
+    background: var(--white);
+    border-radius: 6px;
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+    width: 140px;
+}
+
+.node-label{
+    padding: 4px 0px;
+    margin: 0px;
+}

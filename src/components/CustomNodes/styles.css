@@ -1,0 +1,25 @@
+.message-node-wrapper {
+  border: 1px solid var(--light-gray);
+  border-radius: 12px;
+  background-color: var(--white);
+  width: 300px;
+  overflow: hidden;
+  font-size: 13px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.message-node-header {
+  padding: 10px;
+  font-weight: 600;
+  background-color: var(--aquamarine);
+  border-bottom: 1px solid var(--light-gray);
+  display: flex;
+  gap: 8px;
+}
+
+.message-node-body {
+  padding: 12px;
+  min-height: 40px;
+  word-break: break-all;
+  font-weight: 600;
+  font-size: 12px;
+}

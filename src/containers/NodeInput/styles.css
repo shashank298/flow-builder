@@ -1,0 +1,37 @@
+.input-label {
+    font-size: 13px;
+    font-weight: 600px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.input-header {
+    position: relative;
+    padding: 10px;
+    font-weight: 600;
+    width: 100%;
+    border-bottom: 1px solid var(--light-gray);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.input-container {
+    width: 100%;
+    padding: 12px;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.back-icon {
+    position: absolute;
+    left: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
